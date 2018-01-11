@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 $skripxml=$_POST['skripxml'];
 $sxe = new SimpleXMLElement($skripxml);
 $rootview="rootview.";
