@@ -1,0 +1,6 @@
+#namaid#.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+
+            }
+});

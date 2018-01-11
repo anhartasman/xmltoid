@@ -1,0 +1,21 @@
+
+        final List<Integer> list#namaid# = new ArrayList<Integer>();
+        for (int i#namaid# = 0; i#namaid# <= 2; i#namaid#++)
+        {
+            list#namaid#.add("");
+        }
+        ArrayAdapter<Integer> adapter#namaid# = new ArrayAdapter<Integer>( container.getContext(), R.layout.isispinner, list#namaid#);
+        adapter#namaid#.setDropDownViewResource(R.layout.listdropdown);
+        #namaid#.setAdapter(adapter#namaid#);
+        #namaid#.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
+               
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parentView) {
+                // your code here
+            }
+
+        });
